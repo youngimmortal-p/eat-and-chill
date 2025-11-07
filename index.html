@@ -13,21 +13,28 @@
 </head>
 <body class="bg-white text-gray-800">
     <!-- Navbar -->
-    <nav class="bg-red-600 text-white px-6 py-4 flex justify-between items-center flex-wrap">
-        <h1 class="text-2xl font-bold">Triple B Hilton Eat & Chill</h1>
-        <!-- Mobile Menu Button -->
-        <button id="menu-btn" class="md:hidden focus:outline-none">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-        <!-- Nav Links -->
-        <ul id="menu" class="hidden w-full md:flex md:w-auto md:space-x-8 md:items-center mt-4 md:mt-0">
-          <li><a href="index.html" class="block py-2 md:py-0 hover:text-gray-200">Home</a></li>
-          <li><a href="menu.html" class="block py-2 md:py-0 hover:text-gray-200">Menu</a></li>
-        </ul>
-      </nav>
+<nav class="bg-red-600 text-white px-6 py-4 flex justify-between items-center flex-wrap">
+  <!-- Logo + Title -->
+  <div class="flex items-center space-x-3">
+    <img src="images/logo.png" alt="Triple B Hilton Logo" class="h-10 w-10 rounded-full">
+    <h1 class="text-2xl font-bold">Triple B Hilton Eat & Chill</h1>
+  </div>
+
+  <!-- Mobile Menu Button -->
+  <button id="menu-btn" class="md:hidden focus:outline-none">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+
+  <!-- Nav Links -->
+  <ul id="menu" class="hidden w-full md:flex md:w-auto md:space-x-8 md:items-center mt-4 md:mt-0">
+    <li><a href="index.html" class="block py-2 md:py-0 hover:text-gray-200">Home</a></li>
+    <li><a href="menu.html" class="block py-2 md:py-0 hover:text-gray-200">Menu</a></li>
+  </ul>
+</nav>
+
   <!-- Hero Section -->
   <section 
     class="relative bg-cover bg-center bg-no-repeat h-[100vh] flex flex-col justify-center items-center text-white text-center"
